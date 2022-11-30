@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gerador de Senhas Fortes</title>
+  </head>
+  <body>
+    <div id="principal">
+      <h1>Gerador de senhas Fortes!</h1>
+      <h2>Clique no botão Gerar</h2>
+      <label for="numeroC">Comprimento da Senha (MINÍMO 6!)</label>
+      <p><input type="number" name="numeroC" id="numeroC" min="6" /></p>
+      <p><input type="button" value="GERAR!" onclick="gerar()" /></p>
+      <div id="resultado">
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
